@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="fastdfsdemo:war exploded">
+    <output-path>$PROJECT_DIR$/../fastdfsdemo/out/artifacts/fastdfsdemo_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="fastdfsdemo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="fastdfsdemo" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
