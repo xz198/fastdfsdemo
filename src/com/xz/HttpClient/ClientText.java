@@ -21,6 +21,7 @@ import java.net.URL;
  */
 public class ClientText {
     public static void main(String[] args) throws Exception {
+        // 使用 HttpClient.createDefault 创建httpClient 对象
         CloseableHttpClient httpClient = HttpClients.createDefault();
         URI url= new URIBuilder("https://www.baidu.com/").build();
         HttpGet get=new HttpGet(url);
